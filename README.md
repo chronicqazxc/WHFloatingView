@@ -1,19 +1,8 @@
 # WHFloatingView
 A simple floating view which always on the top of screen.
 ## Example
-Show/Hide floating view    
-![](./floatingView.gif)    
-
-Presenting another view.    
-![](./presentingView.gif)
-
-Show alert.    
-![](./alert.gif)    
-
-
-Present the entry view from floating view.    
-![](./presentEntryView.gif)
-
-
+|Show/Hide floating view|Presenting another view|Show alert|Present the entry view from floating view|
+|--|--|--|--|
+|![](./floatingView.gif)|![](./presentingView.gif)|![](./alert.gif)|![](./presentEntryView.gif)|
 ## Author
-[Wayne Hsiao](mailto://chronicqazxc@gmail.com)
+[Wayne Hsiao](mailto:chronicqazxc@gmail.com)
