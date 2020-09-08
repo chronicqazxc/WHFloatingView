@@ -108,8 +108,8 @@ class CircularViewControllerViewController: UIViewController, FloatingViewContro
     }
      
     static func instanceFromNib() -> FloatingViewController? {
-        let bundle = Bundle(identifier: "com.wayne.hsiao.WHFloatingView")
-        let storyboard = UIStoryboard(name: "Main", bundle: bundle)
+        let bundle = Bundle(for: CircularViewControllerViewController.self)
+        let storyboard = UIStoryboard(name: "WHFloatingView", bundle: bundle)
         let instance = storyboard.instantiateViewController(withIdentifier: "CircularViewControllerViewController")
         return instance as? CircularViewControllerViewController
     }
